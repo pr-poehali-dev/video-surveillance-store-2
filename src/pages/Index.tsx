@@ -99,7 +99,7 @@ export default function Index() {
               <Icon name="Camera" size={16} className="text-[var(--neon)]" />
             </div>
             <span className="text-xl font-semibold tracking-widest uppercase" style={{ fontFamily: "'Oswald', sans-serif", color: "var(--neon)", textShadow: "0 0 10px rgba(0,212,255,0.6)" }}>
-              SecureVision
+              ВидеоПрофи
             </span>
           </button>
 
@@ -408,7 +408,7 @@ export default function Index() {
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
               <div>
                 <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "1.05rem", lineHeight: 1.7, marginBottom: "1.5rem", fontFamily: "'Golos Text', sans-serif" }}>
-                  <span style={{ color: "var(--neon)", fontFamily: "'Oswald', sans-serif", fontSize: "1.2rem" }}>SecureVision</span> — профессиональный интегратор систем безопасности с 2014 года. Мы проектируем, поставляем и монтируем системы видеонаблюдения любой сложности.
+                  <span style={{ color: "var(--neon)", fontFamily: "'Oswald', sans-serif", fontSize: "1.2rem" }}>ВидеоПрофи</span> — профессиональный интегратор систем безопасности с 2014 года. Мы проектируем, поставляем и монтируем системы видеонаблюдения любой сложности.
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.45)", lineHeight: 1.7, marginBottom: "1.5rem", fontFamily: "'Golos Text', sans-serif" }}>
                   За 10 лет работы мы защитили более 1200 объектов: частные дома, торговые центры, промышленные предприятия, банки и государственные учреждения.
@@ -617,7 +617,7 @@ export default function Index() {
             <div className="w-6 h-6 rounded flex items-center justify-center" style={{ border: "1px solid var(--neon)" }}>
               <Icon name="Camera" size={12} className="text-[var(--neon)]" />
             </div>
-            <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: "0.8rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(255,255,255,0.4)" }}>SecureVision</span>
+            <span style={{ fontFamily: "'Oswald', sans-serif", fontSize: "0.8rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "rgba(255,255,255,0.4)" }}>ВидеоПрофи</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-5">
             {(["home","catalog","configurator","delivery","faq","contacts"] as Section[]).map(s => (
@@ -628,7 +628,7 @@ export default function Index() {
               </button>
             ))}
           </div>
-          <div style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.75rem" }}>© 2024 SecureVision</div>
+          <div style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.75rem" }}>© 2024 ВидеоПрофи</div>
         </div>
       </footer>
     </div>
