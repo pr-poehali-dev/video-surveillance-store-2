@@ -514,7 +514,7 @@ export default function Index() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 {[
-                  { icon: "Phone", label: "Телефон", val: "+7 (495) 000-00-00" },
+                  { icon: "Phone", label: "Телефон", val: "+7 (953) 712-99-99" },
                   { icon: "Mail", label: "Email", val: "info@securevision.ru" },
                   { icon: "MapPin", label: "Адрес", val: "Москва, ул. Складочная, 3" },
                   { icon: "Clock", label: "Режим работы", val: "Пн–Пт 9:00–19:00, Сб 10:00–16:00" },
