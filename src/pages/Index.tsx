@@ -525,7 +525,11 @@ export default function Index() {
                     </div>
                     <div>
                       <div style={{ color: "rgba(255,255,255,0.35)", fontSize: "0.75rem", marginBottom: "0.15rem" }}>{label}</div>
-                      <div style={{ color: "rgba(255,255,255,0.9)", fontWeight: 500 }}>{val}</div>
+                      {label === "Телефон" ? (
+                        <a href="tel:+79537129999" style={{ color: "rgba(255,255,255,0.9)", fontWeight: 500, textDecoration: "none" }}>{val}</a>
+                      ) : (
+                        <div style={{ color: "rgba(255,255,255,0.9)", fontWeight: 500 }}>{val}</div>
+                      )}
                     </div>
                   </div>
                 ))}
